@@ -13,10 +13,10 @@
 
 VidorCamera vcam;
 
-#define MAXDIM 10
+const int MAXDIM = 10;
 
 ////////////////////////////////////////////
-const int lockPin = 3;
+const int lockPin = 11;
 const int ledPin = LED_BUILTIN;
 static int counter = 0;
 static unsigned long startMillis = 0;
